@@ -6,13 +6,13 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 
-class AdminController extends Controller
+class ProjectController extends Controller
 {
 	/**
-	 * @Route("/dashboard", name="dashboard")
+	 * @Route("/project/list", name="projects")
 	 */
 	public function indexAction(Request $request)
 	{
-		return $this->render('PlatformCoreBundle:Dashboard:dashboard.html.twig');
+		return $this->render('PlatformCoreBundle:Project:list_project.html.twig');
 	}
 }
