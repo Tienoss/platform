@@ -1,18 +1,18 @@
 <?php
 
-namespace Platform\CoreBundle\Controller;
+namespace Kiwi\CoreBundle\Controller;
 
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 
-class ProjectController extends Controller
+class AdminController extends Controller
 {
 	/**
-	 * @Route("/project/list", name="projects")
+	 * @Route("/dashboard", name="dashboard")
 	 */
 	public function indexAction(Request $request)
 	{
-		return $this->render('PlatformCoreBundle:Project:list_project.html.twig');
+		return $this->render('KiwiCoreBundle:Dashboard:dashboard.html.twig');
 	}
 }

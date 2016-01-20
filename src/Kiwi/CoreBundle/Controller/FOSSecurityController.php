@@ -1,6 +1,6 @@
 <?php
 
-namespace Platform\CoreBundle\Controller;
+namespace Kiwi\CoreBundle\Controller;
 
 
 use FOS\UserBundle\Controller\SecurityController;

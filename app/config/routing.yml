@@ -1,9 +1,9 @@
 app:
-    resource: "@PlatformCoreBundle/Controller/"
+    resource: "@KiwiCoreBundle/Controller/"
     type:     annotation
 
 fos_user_security:
-    resource: "@PlatformUserBundle/Resources/config/routing/security.xml"
+    resource: "@KiwiUserBundle/Resources/config/routing/security.xml"
 
 fos_user_profile:
     resource: "@FOSUserBundle/Resources/config/routing/profile.xml"
